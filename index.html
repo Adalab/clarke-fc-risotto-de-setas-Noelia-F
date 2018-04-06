@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=".\css\main.css">
+    <link rel="stylesheet" href=".\css\reset.css">
+    <title>Receta para Risotto</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <p class="title--header">Tus recetas favoritas</p>
+    </header>
+    <main class="main">
+      <section class="wrap">
+        <p class="subtitle">Ingredientes</p>
+        <h1 class="title"></h1>
+      </section>
+      <section class="ingredients-list wrap">
+        <section class="ingredients__selects">
+          <button type="button" name="button" class="button button--select-all">Seleccionar todo</button>
+          <button type="button" name="button" class="button button--unselect-all">Deseleccionar todo</button>
+        </section>
+        <section class="ingredients__products">
+          <ul class="ingredients__products-list">
+            <li class="items">
+              <input type="checkbox" name="" value="">
+              <input type="number" name="" value="" placeholder="1">
+              <h2 class="item item__name"></h2>
+              <p class="item item__brand"></p>
+              <p class="item item__quantity"></p>
+              <h3 class="item item__price"></h3>
+            </li>
+          </ul>
+        </section>
+        <section class="ingredients__sum">
+          <p class="item">Items:<span class="item item--number"></span></p>
+          <div class="ingredients__sum--subtotal">
+            <p class="item item__sum">Subtotal</p>
+            <p class="item item__sum-subtotal"></p>
+          </div>
+          <div class="ingredients__sum--subtotal">
+            <p class="item item__sum">Gastos de envío</p>
+            <p class="item item__sum-costs">7€</p>
+          </div>
+          <div class="ingredients__sum--subtotal">
+            <p class="item item__sum">Total</p>
+            <p class="item item__sum-total"></p>
+          </div>
+        </section>
+        <section class="ingredients__button">
+          <button type="button" name="button" class="button--send">Comprar ingredientes<span></span></button>
+        </section>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copy">Elaborado por: <a href="https://github.com/Noelia-F" target="_blank" class="copy--link">Noelia Frontón</a></p>
+    </footer>
+
+    <script type="text/javascript" src=".\js\main.js">
+    </script>
+
+  </body>
+</html>

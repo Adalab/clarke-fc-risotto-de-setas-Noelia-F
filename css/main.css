@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/strawberry.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title--header{
+  background-color: rgba(24, 23, 23, 0.7);
+  padding: 10px;
+  max-width: 250px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main{
+  margin-top: 100px;
+  padding: 10px;
+}
+.wrap{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.subtitle{
+  text-transform: uppercase;
+}
+.title{
+  font-size: 26px;
+  font-weight: bold;
+}
+.ingredients__selects{
+  border-bottom: 2px solid rgba(24, 23, 23, 0.7);
+}
+.button{
+  border: none;
+  background-color: transparent;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button--select-all{
+  border-right: 2px solid rgba(24, 23, 23, 0.7);
+}
+
+/*FOOTER*/
+.footer{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181717;
+}
+
+.copy{
+  color: lightgrey;
+  font-size: 12px;
+  text-align: center;
+}
+
+.copy--link{
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+.copy--link:hover{
+  font-weight: bold;
+}
