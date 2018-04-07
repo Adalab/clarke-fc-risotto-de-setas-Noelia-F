@@ -68,6 +68,12 @@
   border-radius: 5px;
 }
 
+.items__number::placeholder{
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
 .items__description{
   width: 55%;
   margin-right: 10px;
