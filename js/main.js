@@ -20,9 +20,9 @@ fetch('https://raw.githubusercontent.com/Adalab/recipes-data/master/rissoto-seta
     //añadir productos en lista
     const ingredients = recipe.ingredients;
     for (var i = 0; i < ingredients.length; i++) {
-      ingredientsHTML += '<li class="items"><input type="checkbox" name="" value="">' + '<input type="number" name="" value="" placeholder="1">' + '<h2 class="item item__name">' + ingredients[i].product + '</h2><p class="item item__brand">' + ingredients[i].brand + '</p><p class="item item__quantity">' + ingredients[i].quantity + '</p><h3 class="item item__price">' + ingredients[i].price + '</h3></li>';
+      ingredientsHTML += '<li class="items"><input class="items__checkbock" type="checkbox" name="" value="">' + '<input class="items__number" type="number" name="" value="" placeholder="1">  <div class="items__description">' + '<h2 class="item item__name">' + ingredients[i].product + '</h2><p class="item item__brand">' + ingredients[i].brand + '</p><p class="item item__quantity">' + ingredients[i].quantity + '</p></div><h3 class="item item__price">' + ingredients[i].price + '</h3></li>';
     }
-    const productsList = document.querySelector('.items');
+    const productsList = document.querySelector('.ingredients__products-list');
     productsList.innerHTML = ingredientsHTML;
 
 

@@ -51,6 +51,27 @@
   font-size: 26px;
   font-weight: bold;
 }
+.items{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+.items__number{
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  border: 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.items__description{
+  width: 55%;
+  margin-right: 10px;
+}
+
+
 .ingredients__selects{
   border-bottom: 2px solid rgba(24, 23, 23, 0.7);
 }
