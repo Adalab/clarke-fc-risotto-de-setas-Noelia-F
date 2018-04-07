@@ -37,8 +37,13 @@
 
 /*MAIN CONTENT*/
 .main{
-  margin-top: 100px;
+  margin: auto;
+  margin-top: 120px;
   padding: 10px;
+  max-width: 780px;
+  display: block;
+  border: 1px solid rgba(24, 23, 23, 0.7);
+  margin-bottom: 20px;
 }
 .wrap{
   padding-top: 20px;
@@ -159,4 +164,9 @@
 
 .copy--link:hover{
   font-weight: bold;
+}
+
+/*MEDIAQUERIES*/
+@media screen and (min-width: 798px) {
+
 }
