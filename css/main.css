@@ -73,6 +73,26 @@
   margin-right: 10px;
 }
 
+.item__name{
+  font-weight: bold;
+}
+
+.item__brand{
+  color: grey;
+  font-size: 12px;
+}
+
+.item__quantity{
+  color: #181717;
+  font-size: 12px;
+}
+
+.item__price{
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 
 .ingredients__selects{
   border-bottom: 2px solid rgba(24, 23, 23, 0.7);
